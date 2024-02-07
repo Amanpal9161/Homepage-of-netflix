@@ -1,0 +1,456 @@
+* {
+    font-style: normal;
+    font-family: sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.814);
+}
+
+.one {
+    height: 700px;
+    width: 1472.8px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./image/images/top-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 120% 160%;
+
+}
+
+.one .page1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.one .page1 .logo {
+    height: 70px;
+    width: 230px;
+    padding: 20px;
+
+}
+
+
+
+.one .page1 button {
+    height: 32px;
+    width: 75.59px;
+    background-color: red;
+    border: 1px solid rgba(0, 0, 0, 0.278);
+    border-radius: 8px;
+    font-size: 16px;
+    color: white;
+    margin-top: 35px;
+    margin-left: 20px;
+
+
+}
+
+.one .page1 select {
+    height: 32px;
+    width: 100px;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-inline-start: 680px;
+    margin-top: 35px;
+}
+
+.one .content {
+
+    padding-top: 160px;
+    padding-left: 280px;
+    color: white;
+
+}
+
+.one .content h1 {
+    color: white;
+    font-size: 50px;
+    height: 68px;
+    width: 1000.3px;
+
+
+}
+
+.one .content p {
+    font-size: 28px;
+    color: whitesmoke;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 300px;
+    height: 27.2px;
+    width: 1000.3px;
+
+}
+
+.one .content form {
+    height: 102px;
+    width: 920px;
+
+    margin-top: 12px;
+    margin-left: 190px;
+}
+
+
+.one .content h3 {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 165px;
+    color: whitesmoke;
+    height: 30px;
+    width: 920px;
+}
+
+.one .content form input {
+    height: 56px;
+    width: 375px;
+    color: whitesmoke;
+    background-color: transparent;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    padding-left: 8px;
+    font-size: 18px;
+
+}
+
+.one .content form button {
+    height: 56px;
+    width: 202px;
+    color: whitesmoke;
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+/* .one .content */
+.two {
+    height: 567.74px;
+    width: 1472.8px;
+    background-color: #000000;
+    margin-top: 0.6rem;
+
+    display: flex;
+}
+
+.two .content1 {
+    padding-top: 150px;
+    padding-left: 175px;
+}
+
+.two .content1 h2 {
+    color: white;
+    height: 68px;
+    width: 560px;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.two .content1 p {
+    color: whitesmoke;
+    height: 55px;
+    width: 560px;
+    font-size: 24px;
+    margin-top: 16px;
+}
+
+.two .image1 img {
+    height: 424px;
+    width: 560px;
+}
+
+/* three */
+
+.three {
+    margin-top: 0.6rem;
+    display: flex;
+    background-color: #000000;
+    padding-top: 70px;
+    padding-left: 175px;
+    padding-bottom: 80px;
+}
+
+.three .image2 {
+    background-image: url(./image/images/mobile-0819.jpg);
+    background-size: initial;
+    width: 550px;
+    height: 450px;
+    background-repeat: no-repeat;
+
+}
+
+.three .image2 .stranger {
+    display: flex;
+    border: 2px solid rgb(72, 71, 71);
+    margin-top: 325px;
+    margin-left: 155px;
+    height: 103px;
+    width: 325px;
+    border-radius: 8px;
+    background-color: #000000;
+}
+
+.three .image2 .stranger img {
+    height: 80px;
+    width: 57px;
+    padding: 8px 12px;
+
+}
+
+.three .image2 .stranger .stranger-content {
+    padding-top: 2rem;
+}
+
+.three .image2 .stranger .stranger-content p {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.three .image2 .stranger .stranger-content a {
+    color: blue;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.three .image2 .stranger .anim {
+    color: white;
+    padding-top: 40px;
+    padding-left: 70px;
+}
+
+.three .content2 {
+    padding-left: 100px;
+}
+
+.three .content2 h1 {
+    color: white;
+    height: 204px;
+    width: 560px;
+    font-size: 48px;
+    font-weight: 900;
+    padding-top: 95px;
+}
+
+.three .content2 p {
+    color: whitesmoke;
+    font-weight: 400;
+    font-size: 24px;
+    padding-top: 10px;
+
+}
+
+
+/* four */
+
+.four {
+    display: flex;
+    background-color: #000000;
+    margin-top: 0.6rem;
+    padding-top: 70px;
+    padding-left: 175px;
+    padding-bottom: 80px;
+}
+
+.four .content3 h2 {
+    color: white;
+    height: 68px;
+    width: 560px;
+    font-size: 48px;
+    font-weight: 900;
+    padding-top: 160px;
+}
+
+.four .content3 p {
+    color: whitesmoke;
+    height: 55px;
+    width: 560px;
+    font-size: 24px;
+    margin-top: 16px;
+    font-weight: 400;
+}
+
+.four .image3 img {
+    height: 420px;
+    width: 560px;
+
+}
+
+
+/* five */
+
+.five {
+    display: flex;
+    background-color: #000000;
+    margin-top: 0.6rem;
+    padding-top: 70px;
+    padding-left: 175px;
+    padding-bottom: 80px;
+}
+
+.five .content4 h2 {
+    color: white;
+    height: 136px;
+    width: 560px;
+    font-size: 48px;
+    font-weight: 900;
+    padding-top: 100px;
+}
+
+.five .content4 p {
+    color: whitesmoke;
+    height: 81px;
+    width: 560px;
+    font-size: 24px;
+    margin-top: 16px;
+    font-weight: 400;
+}
+
+/* six */
+
+.six {
+    display: flex;
+    background-color: #000000;
+    margin-top: 0.6rem;
+    padding-top: 70px;
+    padding-left: 175px;
+    padding-bottom: 80px;
+}
+
+.six h2 {
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+    padding-left: 220px;
+
+}
+
+.six button {
+    color: whitesmoke;
+}
+
+.six .butt button {
+    height: 84px;
+    width: 1132px;
+    background-color: rgba(128, 128, 128, 0.296);
+    margin-bottom: 10px;
+    padding-left: 24px;
+    text-align: left;
+    font-size: 24px;
+    border: 2px solid rgba(128, 128, 128, 0.296);
+}
+
+.six .butt button #fa {
+    float: right;
+}
+
+.six .butt h3 {
+    font-size: 20px;
+    color: whitesmoke;
+    padding-top: 30px;
+    padding-left: 245px;
+    padding-bottom: 10px;
+}
+
+.six .butt input {
+    height: 56px;
+    width: 376px;
+    font-size: 20px;
+    color: whitesmoke;
+    background-color: rgba(38, 37, 37, 0.53);
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    margin-left: 80px;
+    padding-left: 8px;
+}
+
+.six .butt .start-button {
+
+    width: 203px;
+    margin-top: 5px;
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 5px;
+    font-size: 24px;
+
+
+}
+
+.six .butt form {
+    display: flex;
+    height: 102px;
+    width: 920px;
+
+    margin-top: 12px;
+    margin-left: 190px;
+}
+
+.six .butt form button {
+    height: 56px;
+    width: 202px;
+    color: whitesmoke;
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 5px;
+    font-size: 25px;
+    margin-left: 1.2rem;
+    text-align: center;
+}
+
+/* seven */
+.last-page {
+    margin-top: 0.6rem;
+    background-color: #000000;
+}
+
+.seven {
+    height: 256px;
+    width: 1227.5px;
+    padding: 72px 175px;
+
+
+    color: #ffffffb3;
+}
+
+.last-page .seven .question {
+    width: 1131px;
+    height: 30.5px;
+    font-size: 17px;
+}
+
+.last-page .seven .row .col a {
+    display: block;
+    height: 16px;
+    font-size: 17px;
+    color: #ffffffb3;
+    padding: 10px 160px 12px 0px;
+
+}
+
+.last-page .seven .row .col {
+
+    margin-bottom: 25px;
+    display: inline-grid;
+}
+
+.last-page .seven button {
+    color: #ffffffb3;
+    background-color: rgba(26, 26, 26, 0.53);
+    height: 35px;
+    width: 130px;
+    font-size: 16px;
+    border: 0.7px solid #ffffffb3;
+    border-radius: 5px;
+}
+
+.last-page .seven .net {
+    color: #ffffffb3;
+    padding-top: 25px;
+    font-size: 16px;
+}
